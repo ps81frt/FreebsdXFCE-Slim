@@ -5,5 +5,5 @@ sysrc moused_enable=YES
 sysrc hald_enable=YES
 sysrc sound_loud=YES
 sysrc snd_hda_load=YES
-echo "exec start xfce4" > ~/.xinitrc
+echo "exec startxfce4" > ~/.xinitrc
 startx
