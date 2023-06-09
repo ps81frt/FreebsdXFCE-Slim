@@ -12,7 +12,7 @@ vim /boot/loader.conf
 # Ahouter a la 1ère ligne 
 kern.vty=vt
 sed -i "1i kern.vty=vt" > /boot/loader.conf
-get https://github.com/gocobachi/slim-freebsd-dark-theme/archive/refs/heads/master.zip
+wget https://github.com/gocobachi/slim-freebsd-dark-theme/archive/refs/heads/master.zip
 unzip -d /usr/local/share/slim/themes/
 cd /usr/local/share/slim/themes/
 sudo vim /usr/local/etc/slim.conf 
