@@ -6,4 +6,8 @@ sysrc hald_enable=YES
 sysrc sound_loud=YES
 sysrc snd_hda_load=YES
 echo "exec startxfce4" > ~/.xinitrc
+cd /usr/local/share/slim/themes/ && git clone https://github.com/gocobachi/slim-freebsd-dark-theme.git
+sudo vim /usr/local/etc/slim.conf 
+#current_theme      default
+#current_theme       slim-freebsd-dark-theme
 startx
